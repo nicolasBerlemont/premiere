@@ -40,6 +40,11 @@ def affiche_liste(list):
     for mot in len(list):
         phrase += list[mot]
     print(phrase)
-
-
-        
+#Exercice 7
+    
+def enleveDoublon(list_int):
+    list_element = []
+    for i in list_int:
+        if i not in list_element:
+            list_element.append(i)
+    return list_element
